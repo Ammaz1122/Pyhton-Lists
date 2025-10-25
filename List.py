@@ -1,14 +1,10 @@
-student_grades = [85,90,78,95,82]
+studentList = [1,2,3,4]
 
-student_grades.insert(2,90)
-print(student_grades)
+if 5 in studentList:
+    studentList.remove(4)
+    print(studentList)
+else:
+    print("5 does not exists")
 
-student_grades.append(100)
-print(student_grades)
-
-student_grades.remove(82)  # Remove the specific element that we are included in 
-print(student_grades)
-
-student_grades.pop(4)
-print(student_grades)
-
+average = sum(studentList) / len(studentList)
+print(average)

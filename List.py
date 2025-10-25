@@ -1,18 +1,10 @@
-# numberList = [1,2,3]
-# numberList[1] = 5 # in List we are assigning the value
-# print(numberList)
-"""
-numberList = [1,5,6,7,9]
-
-for item in numberList[:]:
-    if(item % 2 == 1):
-        numberList.remove(item)
-        print(numberList)
-else:
-    print("No odd Number ")
-    """
-num = [1,2,3]
-for item in num[:]:
-    if (item % 2 ==0):
-        print("Even Number in list")
+grades = (67,84,23, 23)
+for item in grades[:]:
+    if (item %2 == 0):
         print(item)
+
+
+print(grades.count(23))
+
+newGrades = grades + (90,) # its just concate the value only, should use , at the end while working with tupple
+print(newGrades)

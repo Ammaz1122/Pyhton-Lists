@@ -1,10 +1,18 @@
-studentList = [1,2,3,4]
+# numberList = [1,2,3]
+# numberList[1] = 5 # in List we are assigning the value
+# print(numberList)
+"""
+numberList = [1,5,6,7,9]
 
-if 5 in studentList:
-    studentList.remove(4)
-    print(studentList)
+for item in numberList[:]:
+    if(item % 2 == 1):
+        numberList.remove(item)
+        print(numberList)
 else:
-    print("5 does not exists")
-
-average = sum(studentList) / len(studentList)
-print(average)
+    print("No odd Number ")
+    """
+num = [1,2,3]
+for item in num[:]:
+    if (item % 2 ==0):
+        print("Even Number in list")
+        print(item)

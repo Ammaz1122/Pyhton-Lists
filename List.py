@@ -9,3 +9,6 @@ print(student_grades)
 student_grades.remove(82)  # Remove the specific element that we are included in 
 print(student_grades)
 
+student_grades.pop(4)
+print(student_grades)
+
